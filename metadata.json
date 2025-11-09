@@ -1,0 +1,7 @@
+{
+  "name": "GlucoLife",
+  "description": "A modern mobile application for blood glucose monitoring and personalized nutritional support, featuring an AI-powered meal scanner and conversational assistant.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

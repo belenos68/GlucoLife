@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlucoLife</title>
+    <base href="." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'mint-green': {
+                'light': '#34d399',
+                'DEFAULT': '#10b981',
+                'dark': '#059669'
+              },
+              'calm-blue': {
+                'light': '#7dd3fc',
+                'DEFAULT': '#38bdf8',
+                'dark': '#0ea5e9'
+              },
+              'soft-violet': {
+                'light': '#a78bfa',
+                'DEFAULT': '#8b5cf6',
+                'dark': '#7c3aed'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 dark:bg-gray-900" style="background-image: url('data:image/svg+xml,%3csvg width=\'20\' height=\'20\' viewBox=\'0 0 20 20\' xmlns=\'http://www.w3.org/2000/svg\'%3e%3cpath d=\'M8 0v8H0v4h8v8h4v-8h8V8h-8V0H8z\' fill=\'%23d1d5db\' fill-opacity=\'0.1\' fill-rule=\'evenodd\'/%3e%3c/svg%3e'); background-attachment: fixed;">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
